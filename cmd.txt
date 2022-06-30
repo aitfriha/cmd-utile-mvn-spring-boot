@@ -1,0 +1,9 @@
+install nvm.exe pour utiliser la commade nvm
+nvm install latest installer la dernier version node
+npx express-generator web server
+
+créer une api nodejs
+npm init -y
+npm i -s express nodemon
+express framwork tres lege de node js 
+nodemon packet pemit de mettre ajour le serveur

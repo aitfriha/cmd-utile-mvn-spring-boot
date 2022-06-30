@@ -1,0 +1,25 @@
+fastidieux 
+
+spring.datasource.url=jdbc:mysql://localhost/test
+
+spring.datasource.username=dbuser
+
+spring.datasource.password=dbpass
+
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+
+@SpringBootApplication
+placée au niveau de la classe principale de notre projet generer automatiquement
+
+
+Au sein d’une application Spring Boot, écrire du code implique de définir les beans utilisés par Spring.
+
+On peut exécuter du code grâce à l’implémentation de l’interface CommandLineRunner et de la méthode run.
+
+Pour qu’une classe soit déclarée en tant que bean, on l’annote @Component.
+
+Pour qu’un bean soit injecté dans un attribut, on annote l’attribut @Autowired.
+
+
+Il est important d’utiliser l’annotation @RestController au niveau de la classe. Cela automatise le retour au format JSON.
